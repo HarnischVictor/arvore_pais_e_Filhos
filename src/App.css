@@ -28,7 +28,7 @@ ul li {
 .listaPai li input[type=checkbox],
 .listaFilho li input[type=checkbox] {
   cursor: pointer;
-  background: #dedede;
+  background: #851919;
 }
 
 .listaPai li .checkbox-pai {

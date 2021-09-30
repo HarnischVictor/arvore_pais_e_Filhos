@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1.title {
+  font-family: Roboto;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.listaPai li {
+  margin-bottom: 10px;
+}
+
+.listaFilho li:first-child {
+  margin-top: 10px;
+}
+
+.listaPai li .item-checkbox:hover,
+.listaFilho li .item-checkbox:hover,
+.listaPai li .form-check-label:hover,
+.listaFilho li .form-check-label:hover,
+.listaPai li input[type=checkbox],
+.listaFilho li input[type=checkbox] {
+  cursor: pointer;
+  background: #dedede;
+}
+
+.listaPai li .checkbox-pai {
+  padding: 5px 20px;
+}
+
+.listaFilho li .form-check {
+  padding: 5px 40px;
+}
+
+.checkbox-pai .form-group {
+  margin-bottom: 0;
+}
+
+.container-fluid {
+  max-width: 560px;
+}
+
+.checkbox-pai {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.icon-arrow {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.close-list {
+  display: none;
+}
+
+.open-list {
+  display: block;
+}
+
+.close-arrow {
+  transform: rotate(0);
+}
+
+.open-arrow {
+  transform: rotate(180deg);
+}
+
+.listaFilho {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
